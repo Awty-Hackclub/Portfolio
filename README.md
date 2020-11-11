@@ -9,3 +9,4 @@ Portfolio website for Awty Hackclub.
 - React
 - React Bootstrap
 - React Spring
+- Swiper (potentially)
