@@ -64,3 +64,8 @@ h1 {
     overflow: hidden;
     display: inline;
 }
+
+.logo {
+    width: 100px;
+    float: left;
+}
