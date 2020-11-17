@@ -39,3 +39,28 @@ body {
     color: white;
     text-decoration: underline;
 }
+
+h1, h2 {
+    position: fixed;
+    z-index: -10;
+    text-align: center;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+h2 {
+    top: 32%;
+    font-size: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    top: 56%;
+    font-size: 70px;
+    width: 100%;
+    overflow: hidden;
+    display: inline;
+}
