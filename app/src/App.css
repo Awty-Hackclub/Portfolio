@@ -15,7 +15,7 @@ body {
     bottom: -100%;
     width: 100%;
     height: 100%;
-    background-color: #1D1D1D;
+    background-color: #282828;
 }
 
 .Navbar ul{
@@ -27,5 +27,6 @@ body {
 
 .Navbar li {
     display: inline;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
