@@ -10,19 +10,11 @@ body {
     background-attachment: fixed;
 }
 
-.aboutUs {
-    position: absolute;
-    bottom: -100%;
-    width: 100%;
-    height: 100%;
-    background-color: #282828;
-}
-
 .Navbar {
     padding: 10px;
     margin: auto;
     text-align: center;
-    font-size: 50px;
+    color: white;
 }
 
 .Navbar ul {
@@ -32,12 +24,25 @@ body {
     margin: auto;
 }
 
-.Navbar li {
+.Navbar li{
+    color: white;
+    font-size: 20px;
     display: inline;
     padding-left: 20px;
     padding-right: 20px;
-    color: white;
     text-decoration: underline;
+}
+
+.Navbar li a {
+    transition: 0.3s;
+}
+
+.Navbar li a:visited {
+    color: white;
+}
+
+.Navbar li a:hover {
+    color: red;
 }
 
 h1, h2 {
@@ -68,4 +73,43 @@ h1 {
 .logo {
     width: 100px;
     float: left;
+}
+
+.aboutUs {
+    position: absolute;
+    bottom: -700px;
+    width: 100%;
+    height: 700px;
+    background-color: #282828;
+}
+
+.ellipse {
+    padding-left: 30px;
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+}
+
+.bar1 {
+    padding-left: 30px;
+    width: 250px;
+    position: absolute;
+    bottom: 300px;
+    left: 400px;
+}
+
+.bar2 {
+    padding-left: 30px;
+    width: 250px;
+    position: absolute;
+    bottom: 330px;
+    left: 450px;
+}
+
+.bar3 {
+    padding-left: 30px;
+    width: 250px;
+    position: absolute;
+    bottom: 360px;
+    left: 500px;
 }
