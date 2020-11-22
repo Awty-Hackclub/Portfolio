@@ -120,6 +120,11 @@ p {
     background-color: rgb(207, 207, 207);
 }
 
+.members {
+    height: 100%;
+    background-color: #282828;
+}
+
 .ellipse {
     width: 250px;
     position: absolute;
