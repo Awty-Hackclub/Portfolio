@@ -192,15 +192,19 @@ p {
     width: 100%;
     height: 600px;
     background-color: #282828;
-    position: relative;
-    top: 1560px;
-    border-top-width: 20px;
-    border-top: white;
 }
 
-.hackathons{
-    position: absolute;
-    left: 1000px;
+.HackathonsText{
+    position: relative;
+    left: 70px;
     font-size: 300%;
     color: black;
+}
+
+.InBetween{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    opacity: 30%;
+
 }
