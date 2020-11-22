@@ -165,3 +165,20 @@ p {
 .AbUsText h3 {
     text-align: right;
 }
+
+.Hackathon{
+    width: 100%;
+    height: 600px;
+    background-color: #282828;
+    position: relative;
+    top: 1560px;
+    border-top-width: 20px;
+    border-top: white;
+}
+
+.hackathonText{
+    text-align: center;
+    font-size: 110%;
+    color: blue;
+    
+}
