@@ -113,16 +113,31 @@ p {
     height: 700px;
     background-color: #282828;
     position: relative;
+    transition: 0.2s;
+}
+
+.aboutUs:hover {
+    background-color: #353535;
 }
 
 .hackathons {
     height: 700px;
     background-color: rgb(207, 207, 207);
+    transition: 0.2s;
+}
+
+.hackathons:hover {
+    background-color: rgb(241, 241, 241);
 }
 
 .members {
     height: 100%;
     background-color: #282828;
+    transition: 0.2s;
+}
+
+.members:hover {
+    background-color: #353535;
 }
 
 .ellipse {
