@@ -13,8 +13,9 @@ function App() {
       <Home />  
       <div className = "Content">
         <AboutUs />
-        <InBetween />
+          <InBetween />
         <Hackathons />
+          <InBetween />
         <Members />
       </div>
     </div>

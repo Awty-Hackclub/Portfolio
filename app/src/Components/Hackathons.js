@@ -4,7 +4,7 @@ export default function Hackathons(){
     return(
         <div>
             <div className="hackathons" id="hackathons">
-                <p className="HackathonsText">Hackathons</p>
+                <div className="HackathonsText">Hackathons</div>
             </div>
         </div>
     )
