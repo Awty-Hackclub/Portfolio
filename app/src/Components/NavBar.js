@@ -6,10 +6,10 @@ export default function NavBar() {
     <ul className="Navbar">
       <img className="logo" src={logo} alt="logo"></img>
       <div className = "NavBarText">
-        <li><a href="">Introduction</a></li>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Members</a></li>
-        <li><a href="">Our Projects</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#aboutus">About Us</a></li>
+        <li><a href="#hackathons">Hackathons</a></li>
+        <li><a href="#members">Members</a></li>
       </div>
     </ul>
   );

@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhdqwalls.com%2Fdownload%2Fpink-red-nebula-space-cosmos-4k-7m-1920x1080.jpg&f=1&nofb=1');
     background-color: white;
@@ -102,12 +106,30 @@ p {
     filter:  invert(23%) sepia(90%) saturate(7352%) hue-rotate(357deg) brightness(105%) contrast(116%);
 }
 
-.aboutUs {
+.Content {
     position: absolute;
-    bottom: -700px;
+    bottom: -100%;
     width: 100%;
+    height: 100%;
+}
+
+.aboutUs {
     height: 700px;
     background-color: #282828;
+    position: relative;
+    transition: 0.2s;
+}
+
+.hackathons {
+    height: 700px;
+    background-color: rgb(207, 207, 207);
+    transition: 0.2s;
+}
+
+.members {
+    height: 100%;
+    background-color: #282828;
+    transition: 0.2s;
 }
 
 .ellipse {
@@ -144,8 +166,8 @@ p {
 .AboutUsImg{
     border-radius: 15px;
     position: absolute;
-    width: 600px;
-    bottom: 120px;
+    width: 500px;
+    bottom: 160px;
     left: 100px;
 }
 
@@ -176,9 +198,9 @@ p {
     border-top: white;
 }
 
-.hackathonText{
-    text-align: center;
-    font-size: 110%;
-    color: blue;
-    
+.hackathons{
+    position: absolute;
+    left: 1000px;
+    font-size: 300%;
+    color: black;
 }
