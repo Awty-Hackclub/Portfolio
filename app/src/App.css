@@ -50,6 +50,7 @@ body::-webkit-scrollbar {
 
 .Navbar li a {
     transition: 0.3s;
+    color: white;
 }
 
 .Navbar li a:visited {
@@ -118,30 +119,33 @@ p {
     background-color: #282828;
     position: relative;
     transition: 0.2s;
+    opacity: 90%;
 }
 
 .aboutUs:hover {
-    background-color: #353535;
+    opacity: 100%;
 }
 
 .hackathons {
     height: 700px;
     background-color: rgb(207, 207, 207);
+    opacity: 90%;
     transition: 0.2s;
 }
 
 .hackathons:hover {
-    background-color: rgb(241, 241, 241);
+    opacity: 100%;
 }
 
 .members {
     height: 100%;
     background-color: #282828;
+    opacity: 90%;
     transition: 0.2s;
 }
 
 .members:hover {
-    background-color: #353535;
+    opacity: 100%;
 }
 
 .ellipse {

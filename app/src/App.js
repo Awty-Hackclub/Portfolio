@@ -7,7 +7,7 @@ import Members from './Components/Members'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home">
       <NavBar />
       <Home />
       <div className = "Content">
