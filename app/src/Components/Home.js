@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Home(){
     return(
-        <div id = 'home'>
+        <div>
             <h2>
                 We are the next generation
             </h2>

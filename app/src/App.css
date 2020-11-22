@@ -50,6 +50,7 @@ body::-webkit-scrollbar {
 
 .Navbar li a {
     transition: 0.3s;
+    color: white;
 }
 
 .Navbar li a:visited {
@@ -118,20 +119,44 @@ p {
     background-color: #282828;
     position: relative;
     transition: 0.2s;
+    opacity: 90%;
 }
 
+<<<<<<< HEAD
+=======
+.aboutUs:hover {
+    opacity: 100%;
+}
+
+>>>>>>> 73c7ae98922297a1edc71be0f5f61ae817dac521
 .hackathons {
     height: 700px;
     background-color: rgb(207, 207, 207);
+    opacity: 90%;
     transition: 0.2s;
 }
 
+<<<<<<< HEAD
+=======
+.hackathons:hover {
+    opacity: 100%;
+}
+
+>>>>>>> 73c7ae98922297a1edc71be0f5f61ae817dac521
 .members {
     height: 100%;
     background-color: #282828;
+    opacity: 90%;
     transition: 0.2s;
 }
 
+<<<<<<< HEAD
+=======
+.members:hover {
+    opacity: 100%;
+}
+
+>>>>>>> 73c7ae98922297a1edc71be0f5f61ae817dac521
 .ellipse {
     width: 250px;
     position: absolute;

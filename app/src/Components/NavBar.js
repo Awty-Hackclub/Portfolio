@@ -4,7 +4,9 @@ import logo from "../img/logo.svg"
 export default function NavBar() {
   return (
     <ul className="Navbar">
-      <img className="logo" src={logo} alt="logo"></img>
+      <a href = "./">
+        <img className="logo" src={logo} alt="logo"></img>
+      </a>
       <div className = "NavBarText">
         <li><a href="#home">Home</a></li>
         <li><a href="#aboutus">About Us</a></li>
