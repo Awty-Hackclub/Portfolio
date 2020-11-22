@@ -1,4 +1,5 @@
 import React from 'react'
+import tarek from "../img/tarek.JPG"
 
 export default function AboutUs() {
     return(
@@ -16,10 +17,7 @@ export default function AboutUs() {
                 <svg className = 'bar3' width="35" height="202" viewBox="0 0 35 202" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="35" height="202" fill="white"/>
                 </svg>
-                <img 
-                className = "AboutUsImg"
-                src = "../img/tarek.JPG"
-                ></img>
+                <img src = {tarek}/>
             </div>
             <div className = "AbUsText">
                 <h3>
@@ -29,7 +27,7 @@ export default function AboutUs() {
                 We are the Awty International School Hackathon Club (Awty Hackclub) that has been accepted and sponsored by a large non-profit, Hack Club. We prepare for and participate in hackathons. We cultivate new members' skills through side projects; said skills are then utilized in Hackathons. We aim to create a community of young developers and entrepreneurs; leveraging teamwork whilst doing so. Our club provides a medium for students to express creativity, elevate ingenuity, and learn skills that they can implement in their future careers.
                 </p>
             </div>
-
+            
 
         </div>
     )
