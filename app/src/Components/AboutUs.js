@@ -17,7 +17,7 @@ export default function AboutUs() {
                 <svg className = 'bar3' width="35" height="202" viewBox="0 0 35 202" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="35" height="202" fill="white"/>
                 </svg>
-                <img src = {tarek}/>
+                <img className="AboutUsImg" src = {tarek}/>
             </div>
             <div className = "AbUsText">
                 <h3>
