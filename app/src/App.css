@@ -46,10 +46,10 @@ body::-webkit-scrollbar {
     display: inline;
     padding-left: 20px;
     padding-right: 20px;
-    text-decoration: underline;
 }
 
 .Navbar li a {
+    text-decoration: none;
     transition: 0.3s;
     color: white;
 }
