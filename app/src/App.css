@@ -22,8 +22,12 @@ body::-webkit-scrollbar {
     display: none;
   }
 
-.Navbar {
+.NavBarBox {
     padding: 10px;
+}
+
+.Navbar {
+    padding-top: 40px;
     margin: auto;
     text-align: center;
     color: white;
@@ -33,9 +37,6 @@ body::-webkit-scrollbar {
     width: 50%;
     list-style-type: none;
     margin: auto;
-}
-
-.NavBarText {
     padding-top: 40px;
 }
 
