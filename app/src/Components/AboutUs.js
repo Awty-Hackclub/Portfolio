@@ -20,10 +20,10 @@ export default function AboutUs() {
                 <img className="AboutUsImg" src = {tarek}/>
             </div>
             <div className = "AbUsText">
-                <h3>
+                <h3 className = "contTitle">
                     About Us
                 </h3>
-                <p>
+                <p className = "description">
                 We are the Awty International School Hackathon Club (Awty Hackclub) that has been accepted and sponsored by a large non-profit, Hack Club. We prepare for and participate in hackathons. We cultivate new members' skills through side projects; said skills are then utilized in Hackathons. We aim to create a community of young developers and entrepreneurs; leveraging teamwork whilst doing so. Our club provides a medium for students to express creativity, elevate ingenuity, and learn skills that they can implement in their future careers.
                 </p>
             </div>

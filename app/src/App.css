@@ -61,7 +61,7 @@ body::-webkit-scrollbar {
     color: #ff0000;
 }
 
-h1, h2 {
+.hackText, .genText {
     position: fixed;
     z-index: -10;
     text-align: center;
@@ -71,14 +71,14 @@ h1, h2 {
     white-space: nowrap;
 }
 
-h2 {
+.genText {
     top: 35%;
     font-size: 60px;
     width: 100%;
     overflow: hidden;
 }
 
-h1 {
+.hackText {
     top: 50%;
     font-size: 80px;
     width: 100%;
@@ -86,12 +86,12 @@ h1 {
     display: inline;
 }
 
-h3 {
+.contTitle {
     color: white;
     font-size: 50px;
 }
 
-p {
+.description {
     color: white;
     font-size: 20px;
 }
