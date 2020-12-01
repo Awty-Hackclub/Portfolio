@@ -8,17 +8,7 @@ import InBetween from './Components/inbetween'
 
 function App() {
   return (
-    <div className="App" id="home">
-      <NavBar />
-      <Home />  
-      <div className = "Content">
-        <AboutUs />
-          <InBetween />
-        <Hackathons />
-          <InBetween />
-        <Members />
-      </div>
-    </div>
+    <h1>hello</h1>
   );
 }
 
