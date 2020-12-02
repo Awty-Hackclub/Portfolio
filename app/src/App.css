@@ -1,0 +1,19 @@
+body {
+    background-color: #282828;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar-ul {
+    width: 100%;
+    background: transparent;
+    padding: 0%;
+    margin: 0%;
+    overflow: auto;
+}
+
+.navbar-li {
+    display: inline-block;
+} 
