@@ -4,16 +4,13 @@ body {
 
 .navbar {
     text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
 }
 
-.navbar-ul {
-    width: 100%;
-    background: transparent;
-    padding: 0%;
-    margin: 0%;
-    overflow: auto;
+.navbar li {
+    display: inline;
+    margin-left: 20px;
+    text-decoration: none;
 }
-
-.navbar-li {
-    display: inline-block;
-} 
