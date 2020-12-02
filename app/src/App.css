@@ -5,12 +5,15 @@ body {
 .navbar {
     text-align: center;
     font-size: 2rem;
-    color: white;
     font-weight: bold;
 }
 
 .navbar li {
     display: inline;
     margin-left: 20px;
+}
+
+.navbar a {
     text-decoration: none;
+    color: white;
 }
