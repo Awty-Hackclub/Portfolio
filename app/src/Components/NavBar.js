@@ -3,6 +3,7 @@ import React from 'react';
 export default function NavBar() {
     return (
         <div className="navbar">
+            <img src=""></img>
             <ul>
                 <li><a href="#/">About Us</a></li>
                 <li><a href="#/members">Members</a></li>
