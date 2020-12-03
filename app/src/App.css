@@ -15,5 +15,9 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
+}
+
+.navbar a:hover {
+    color: #da08cf; 
 }
