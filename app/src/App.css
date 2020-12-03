@@ -1,5 +1,5 @@
 body {
-    background-color: #282828;
+    background-color: #1A1A1D;
 }
 
 .navbar {
@@ -19,5 +19,5 @@ body {
 }
 
 .navbar a:hover {
-    color: #FF0000; 
+    color: #c3073F; 
 }
