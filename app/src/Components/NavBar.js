@@ -2,8 +2,7 @@ import React from 'react';
 
 export default function NavBar() {
     return (
-        <div className="navbar">
-            <img src=""></img>
+        <div className="navbar" >
             <ul>
                 <li><a href="#aboutus">About Us</a></li>
                 <li><a href="#members">Members</a></li>
