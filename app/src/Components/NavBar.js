@@ -5,6 +5,7 @@ export default function NavBar() {
         <div className="navbar">
             <img src=""></img>
             <ul>
+                <li><a href = '#/'></a></li>
                 <li><a href="#/">About Us</a></li>
                 <li><a href="#/members">Members</a></li>
                 <li><a href="#/projects">Projects</a></li>
