@@ -8,7 +8,7 @@ function App() {
     <>
       <NavBar />
       <AboutUs />
-      <Home/>
+      <Home />
     </>
   );
 }
