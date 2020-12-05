@@ -4,7 +4,7 @@ body {
 
 .navbar {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
@@ -22,6 +22,7 @@ body {
 .navbar a {
     text-decoration: none;
     color: #ffffff;
+    transition: 0.2s;
 }
 
 .navbar a:hover {
@@ -34,9 +35,36 @@ body {
 
 .title {
     text-align: center;
-    color: #C3073F;
-    font-size: 3rem;
+    color: #c3073F;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 30vh;
+    transition: 1s;
+    animation: title 5s step-end infinite;
 }
+
+@keyframes title {
+    0% {
+        text-shadow: 0 0 5px #fff, 0 0 6px #fff, 0 0 7px 
+        #c3073F, 0 0 8px #c3073F, 0 0 9px #c3073F, 0 0 10px 
+        #c3073F, 0 0 35px #c3073F;
+    }
+    25% {
+        text-shadow: 0 0 5px #fff, 0 0 6px #fff, 0 0 7px 
+        #950740, 0 0 8px #950740, 0 0 9px #950740, 0 0 10px 
+        #950740, 0 0 35px #950740;
+    }
+    50% {
+        text-shadow: 0 0 5px #fff, 0 0 6px #fff, 0 0 7px 
+        #6F2232, 0 0 8px #6F2232, 0 0 9px #6F2232, 0 0 10px 
+        #6F2232, 0 0 35px #6F2232;
+    }
+    75% {
+        text-shadow: 0 0 5px #fff, 0 0 6px #fff, 0 0 7px 
+        #950740, 0 0 8px #950740, 0 0 9px #950740, 0 0 10px 
+        #950740, 0 0 35px #950740;
+    }
+  }
 
 .home_page_image {
     display: block;
@@ -44,4 +72,8 @@ body {
     margin-right: auto;
     width: 50%;
     width: 60rem;
+}
+
+::selection {
+    background-color: #4E4E50;
 }
