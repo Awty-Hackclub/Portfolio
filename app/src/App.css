@@ -37,3 +37,11 @@ body {
     color: #C3073F;
     font-size: 3rem;
 }
+
+.home_page_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 60rem;
+}
