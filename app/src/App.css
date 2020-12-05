@@ -44,31 +44,31 @@ body {
 @keyframes title {
     0% {
         color: #c3073F;
-        text-shadow: 0 0 7px 
+        text-shadow: 0 0 4px white, 0 0 7px 
         #c3073F, 0 0 8px #c3073F, 0 0 9px #c3073F, 0 0 10px
         #c3073F, 0 0 35px #c3073F;
     }
     25% {
         color: #950740;
-        text-shadow:0 0 7px
+        text-shadow:0 0 4px white, 0 0 7px
          #950740, 0 0 8px #950740, 0 0 9px #950740, 0 0 10px 
          #950740, 0 0 35px #950740;
     }
     50% {
         color: #6F2232;
-        text-shadow:0 0 7px 
+        text-shadow:0 0 4px white, 0 0 7px 
         #6F2232, 0 0 8px #6F2232, 0 0 9px #6F2232, 0 0 10px 
         #6F2232, 0 0 35px #6F2232;
     }
     75% {
         color: #950740;
-        text-shadow:0 0 7px 
+        text-shadow:0 0 4px white, 0 0 7px 
         #950740, 0 0 8px #950740, 0 0 9px #950740, 0 0 10px
          #950740, 0 0 35px #950740;
     }
     100% {
         color: #c3073F;
-        text-shadow:0 0 7px 
+        text-shadow:0 0 4px white, 0 0 7px 
         #c3073F, 0 0 8px #c3073F, 0 0 9px #c3073F, 0 0 10px 
         #c3073F, 0 0 35px #c3073F;
     }
