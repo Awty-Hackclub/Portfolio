@@ -33,6 +33,16 @@ body {
     background-color: #4e4350;
     text-align: right;
     font-size: 2rem;
+    padding-right: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.aboutus p {
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    text-align: justify;
 }
 
 .title {
