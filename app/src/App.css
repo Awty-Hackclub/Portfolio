@@ -3,19 +3,20 @@ body {
 }
 
 .navbar {
-    margin-top: 0;
     text-align: center;
-    font-size: 2.75rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 .navbar ul {
+    padding: 0;
     margin-top: 1rem;
 }
 
 .navbar li {
     display: inline;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .navbar a {
@@ -29,4 +30,10 @@ body {
 
 .aboutus {
     background-color: #4e4350;
+}
+
+.title {
+    text-align: center;
+    color: #C3073F;
+    font-size: 3.5rem;
 }
