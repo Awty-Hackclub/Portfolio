@@ -1,5 +1,4 @@
 import React from 'react'
-import Typed from 'typed.js';
 import home_page_image from '../img/tarek.JPG'
 
 export default function Home() {
