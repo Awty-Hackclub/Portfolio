@@ -1,5 +1,6 @@
 body {
     background-color: #1A1A1D;
+    position: fixed;
 }
 
 .navbar {
@@ -43,7 +44,6 @@ body {
     padding: 10px;
     width: 50%;
     height: 50%;
-    text-align: right;
 }
 
 .title {
