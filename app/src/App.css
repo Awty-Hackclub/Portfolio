@@ -4,7 +4,7 @@ body {
 
 .navbar {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -35,5 +35,5 @@ body {
 .title {
     text-align: center;
     color: #C3073F;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
