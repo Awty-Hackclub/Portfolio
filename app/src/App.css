@@ -32,16 +32,13 @@ body {
 
 .about_us {
     background-color: #c3073F;
-    justify-content: right;
+    justify-content: left;
     font-size: 2rem;
-    padding-right: 3%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    padding: 1rem;
     color: #ffffff;
 }
 
 .about_us p {
-    padding: 10px;
     width: 50%;
     height: 50%;
 }
