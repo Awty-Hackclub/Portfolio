@@ -30,9 +30,9 @@ body {
     color: #c3073F;
 }
 
-.aboutus {
+.about_us {
     background-color: #c3073F;
-    text-align: right;
+    justify-content: right;
     font-size: 2rem;
     padding-right: 3%;
     padding-top: 0.5%;
@@ -40,7 +40,7 @@ body {
     color: #ffffff;
 }
 
-.aboutus p {
+.about_us p {
     padding: 10px;
     width: 50%;
     height: 50%;
