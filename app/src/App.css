@@ -31,11 +31,10 @@ body {
 }
 
 .about_us {
-    display: flex;
     background-color: #c3073F;
-    justify-content: space-around;
+    justify-content: left;
     font-size: 2rem;
-    padding: 1rem;
+    padding: 1.5rem;
     color: #ffffff;
 }
 
