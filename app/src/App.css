@@ -33,7 +33,7 @@ body {
 .about_us {
     display: flex;
     background-color: #c3073F;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 2rem;
     padding: 1rem;
     color: #ffffff;
