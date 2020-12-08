@@ -1,6 +1,6 @@
 body {
     background-color: #1A1A1D;
-    position: fixed;
+    position: absolute;
 }
 
 .navbar {
@@ -89,4 +89,9 @@ body {
 
 .support {
     background-color: #c3073F;
+}
+
+.TarekJPG {
+    width: 30%;
+    float: right;
 }
