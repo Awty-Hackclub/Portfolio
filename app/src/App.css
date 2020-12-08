@@ -46,6 +46,8 @@ body {
 .title {
     text-align: center;
     font-size: 5rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
     font-weight: bold;
     animation: title 5s linear infinite;
 }
