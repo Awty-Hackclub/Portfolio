@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Support() {
   return (
-    <div>
+    <div className="support">
       <h1>Support Us</h1>
       <h2>
         <a href="https://www.github.com/Awty-Hackclub">Github</a>
