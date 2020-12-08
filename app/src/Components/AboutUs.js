@@ -1,4 +1,5 @@
 import React from 'react';  
+import Tarek from ''
 
 export default function AboutUs() {
     return (
