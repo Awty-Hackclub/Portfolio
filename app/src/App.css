@@ -47,7 +47,6 @@ body {
     text-align: center;
     font-size: 5rem;
     font-weight: bold;
-    margin-top: 30vh;
     animation: title 5s linear infinite;
 }
 
