@@ -86,3 +86,7 @@ body {
 ::selection {
     background-color: #4E4E50;
 }
+
+.support {
+    background-color: #c3073F;
+}
