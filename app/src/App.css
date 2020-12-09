@@ -89,8 +89,6 @@ body {
 
 ::selection {
     background-color: #4E4E50;
-<<<<<<< HEAD
-=======
 }
 
 .support {
@@ -107,13 +105,13 @@ body {
     transition: 0.2s;
 }
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 .TarekJPG {
     width: 30%;
     float: right;
->>>>>>> e75638ced4a7fffa0c834e5600077d4285b09778
-=======
+}
+/* >>>>>>> e75638ced4a7fffa0c834e5600077d4285b09778 */
+/* ======= */
 .support a:hover {
     color: #4e4e50;
->>>>>>> cdea6eb038b7c483ce3cb1695ee892b8f3941f0c
 }
