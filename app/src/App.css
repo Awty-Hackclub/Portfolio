@@ -107,12 +107,12 @@ body {
     transition: 0.2s;
 }
 
-/* <<<<<<< HEAD */
 .TarekJPG {
     width: 30%;
+    border-radius: 3%;
+
 }
-/* >>>>>>> e75638ced4a7fffa0c834e5600077d4285b09778 */
-/* ======= */
+
 .support a:hover {
     color: #4e4e50;
 }
