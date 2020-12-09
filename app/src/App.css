@@ -1,6 +1,6 @@
 body {
     background-color: #1A1A1D;
-    position: fixed;
+    position: absolute;
 }
 
 .navbar {
@@ -84,4 +84,16 @@ body {
 
 ::selection {
     background-color: #4E4E50;
+<<<<<<< HEAD
+=======
+}
+
+.support {
+    background-color: #c3073F;
+}
+
+.TarekJPG {
+    width: 30%;
+    float: right;
+>>>>>>> e75638ced4a7fffa0c834e5600077d4285b09778
 }
