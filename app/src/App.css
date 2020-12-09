@@ -36,7 +36,8 @@ body {
     font-size: 2rem;
     padding: 1.5rem;
     color: #ffffff;
-    position: absolute;
+    position: relative;
+    margin-bottom: 100px;
 }
 
 .about_us p {
@@ -97,6 +98,7 @@ body {
     font-size: 2rem;
     padding: 1.5rem;
     color: #ffffff;
+    width: 100%;
 }
 
 .support a {
@@ -108,7 +110,6 @@ body {
 /* <<<<<<< HEAD */
 .TarekJPG {
     width: 30%;
-    float: right;
 }
 /* >>>>>>> e75638ced4a7fffa0c834e5600077d4285b09778 */
 /* ======= */
