@@ -47,9 +47,8 @@ body {
 .title {
     text-align: center;
     font-size: 5rem;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
     font-weight: bold;
+    margin-top: 30vh;
     animation: title 5s linear infinite;
 }
 
@@ -58,18 +57,22 @@ body {
         color: #c3073F;
         text-shadow: 0 0 4px white, 0 0 7px #c3073F, 0 0 8px #c3073F, 0 0 9px #c3073F, 0 0 10px #c3073F, 0 0 35px #c3073F;
     }
+
     25% {
         color: #950740;
         text-shadow: 0 0 4px white, 0 0 7px #950740, 0 0 8px #950740, 0 0 9px #950740, 0 0 10px #950740, 0 0 35px #950740;
     }
+
     50% {
         color: #6F2232;
         text-shadow: 0 0 4px white, 0 0 7px #6F2232, 0 0 8px #6F2232, 0 0 9px #6F2232, 0 0 10px #6F2232, 0 0 35px #6F2232;
     }
+
     75% {
         color: #950740;
         text-shadow: 0 0 4px white, 0 0 7px #950740, 0 0 8px #950740, 0 0 9px #950740, 0 0 10px #950740, 0 0 35px #950740;
     }
+
     100% {
         color: #c3073F;
         text-shadow: 0 0 4px white, 0 0 7px #c3073F, 0 0 8px #c3073F, 0 0 9px #c3073F, 0 0 10px #c3073F, 0 0 35px #c3073F;
@@ -81,18 +84,36 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    width: 60rem;
+    width: 60rem
 }
 
 ::selection {
     background-color: #4E4E50;
+<<<<<<< HEAD
+=======
 }
 
 .support {
     background-color: #c3073F;
+    justify-content: left;
+    font-size: 2rem;
+    padding: 1.5rem;
+    color: #ffffff;
 }
 
+.support a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+<<<<<<< HEAD
 .TarekJPG {
     width: 30%;
     float: right;
+>>>>>>> e75638ced4a7fffa0c834e5600077d4285b09778
+=======
+.support a:hover {
+    color: #4e4e50;
+>>>>>>> cdea6eb038b7c483ce3cb1695ee892b8f3941f0c
 }
