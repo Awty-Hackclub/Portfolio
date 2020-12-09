@@ -1,6 +1,6 @@
 body {
     background-color: #1A1A1D;
-    position: absolute;
+    scroll-behavior: smooth;
 }
 
 .navbar {
