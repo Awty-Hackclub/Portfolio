@@ -1,118 +1,123 @@
 body {
-    background-color: #1A1A1D;
-    scroll-behavior: smooth;
+  background-color: #1a1a1d;
+  scroll-behavior: smooth;
 }
 
 .navbar {
-    text-align: center;
-    font-size: 2.2rem;
-    font-weight: bold;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
 }
 
 .navbar ul {
-    padding: 0;
-    margin-top: 1rem;
+  padding: 0;
+  margin-top: 1rem;
 }
 
 .navbar li {
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .navbar a {
-    text-decoration: none;
-    color: #ffffff;
-    transition: 0.2s;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.2s;
 }
 
 .navbar a:hover {
-    color: #c3073F;
+  color: #c3073f;
 }
 
 .about_us {
-    background-color: #c3073F;
-    justify-content: left;
-    font-size: 2rem;
-    padding: 1.5rem;
-    color: #ffffff;
-    position: relative;
-    margin-bottom: 100px;
+  background-color: #c3073f;
+  justify-content: left;
+  font-size: 2rem;
+  padding: 1.5rem;
+  color: #ffffff;
+  position: relative;
+  margin-bottom: 100px;
 }
 
 .about_us p {
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
 }
 
 .title {
-    text-align: center;
-    font-size: 5rem;
-    font-weight: bold;
-    margin-top: 30vh;
-    animation: title 5s linear infinite;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: 30vh;
+  animation: title 5s linear infinite;
 }
 
 @keyframes title {
-    0% {
-        color: #c3073F;
-        text-shadow: 0 0 4px white, 0 0 7px #c3073F, 0 0 8px #c3073F, 0 0 9px #c3073F, 0 0 10px #c3073F, 0 0 35px #c3073F;
-    }
+  0% {
+    color: #c3073f;
+    text-shadow: 0 0 4px white, 0 0 7px #c3073f, 0 0 8px #c3073f,
+      0 0 9px #c3073f, 0 0 10px #c3073f, 0 0 35px #c3073f;
+  }
 
-    25% {
-        color: #950740;
-        text-shadow: 0 0 4px white, 0 0 7px #950740, 0 0 8px #950740, 0 0 9px #950740, 0 0 10px #950740, 0 0 35px #950740;
-    }
+  25% {
+    color: #950740;
+    text-shadow: 0 0 4px white, 0 0 7px #950740, 0 0 8px #950740,
+      0 0 9px #950740, 0 0 10px #950740, 0 0 35px #950740;
+  }
 
-    50% {
-        color: #6F2232;
-        text-shadow: 0 0 4px white, 0 0 7px #6F2232, 0 0 8px #6F2232, 0 0 9px #6F2232, 0 0 10px #6F2232, 0 0 35px #6F2232;
-    }
+  50% {
+    color: #6f2232;
+    text-shadow: 0 0 4px white, 0 0 7px #6f2232, 0 0 8px #6f2232,
+      0 0 9px #6f2232, 0 0 10px #6f2232, 0 0 35px #6f2232;
+  }
 
-    75% {
-        color: #950740;
-        text-shadow: 0 0 4px white, 0 0 7px #950740, 0 0 8px #950740, 0 0 9px #950740, 0 0 10px #950740, 0 0 35px #950740;
-    }
+  75% {
+    color: #950740;
+    text-shadow: 0 0 4px white, 0 0 7px #950740, 0 0 8px #950740,
+      0 0 9px #950740, 0 0 10px #950740, 0 0 35px #950740;
+  }
 
-    100% {
-        color: #c3073F;
-        text-shadow: 0 0 4px white, 0 0 7px #c3073F, 0 0 8px #c3073F, 0 0 9px #c3073F, 0 0 10px #c3073F, 0 0 35px #c3073F;
-    }
+  100% {
+    color: #c3073f;
+    text-shadow: 0 0 4px white, 0 0 7px #c3073f, 0 0 8px #c3073f,
+      0 0 9px #c3073f, 0 0 10px #c3073f, 0 0 35px #c3073f;
+  }
 }
 
 .home_page_image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    width: 60rem
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 60rem;
 }
 
 ::selection {
-    background-color: #4E4E50;
+  background-color: #4e4e50;
 }
 
 .support {
-    background-color: #c3073F;
-    justify-content: left;
-    font-size: 2rem;
-    padding: 1.5rem;
-    color: #ffffff;
-    width: 100%;
+  background-color: #c3073f;
+  justify-content: left;
+  font-size: 2rem;
+  padding: 1.5rem;
+  color: #ffffff;
+  width: 100%;
 }
 
 .support a {
-    text-decoration: none;
-    color: #ffffff;
-    transition: 0.2s;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.2s;
 }
 
 .tarekjpg {
-    width: 30%;
-    border-radius: 3%;
-    align-items: right;
+  width: 30%;
+  border-radius: 3%;
+  align-items: right;
 }
 
 .support a:hover {
-    color: #4e4e50;
+  color: #4e4e50;
 }
