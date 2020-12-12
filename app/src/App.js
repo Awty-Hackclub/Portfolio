@@ -1,8 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './utils/Navbar';
 
 function App() {
   return (
+    <Navbar />
   );
 }
 
