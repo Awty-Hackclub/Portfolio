@@ -1,3 +1,8 @@
 .navbar {
   color: #c3073f;
 }
+
+.navbar h1 {
+  text-align: left;
+  size: 3rem;
+}
