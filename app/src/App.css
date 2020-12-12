@@ -1,12 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+
 .navbar {
   color: #c3073f;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .navbar button {
   background: transparent;
-  border: 2px solid #C3073F;
+  border: 1px solid #C3073F;
   align-items: right;
   color: #c3073f;
   text-decoration: none;
   box-sizing: border-box;
+  border-radius: 5px;
+  height: 25px;
+  width: 90px;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+  outline: 0;
+}
+
+.navbar button:hover {
+  background: #C3073F;
+  color: #1A1A1D;
+}
+
+.navbar ul * {
+  display: inline;
+}
+
+.navbar ul {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.navbar hr {
+  clear: both;
+  border-color: #C3073F;
+}
+
+.AwtyHackclub {
+  font-size: 20px;
+  font-family: Sarina;
 }
