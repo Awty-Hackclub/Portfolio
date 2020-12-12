@@ -11,3 +11,7 @@ body {
 .support {
   border: solid 1px;
 }
+
+.navbar hr {
+  color: #C3073F;
+}
