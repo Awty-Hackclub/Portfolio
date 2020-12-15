@@ -1,12 +1,12 @@
 import "./App.css";
-import Navbar from "./utils/Navbar";
+import Navbar from "./utils/Navbar";gi
 import groupPhoto from "./img/groupPhoto.png";
 
 function App() {
   return (
     <>
       <Navbar />
-      <table className = "content">
+      <table className="content">
         <tr>
           <th className = "paragraph">
             We are the Awty International School Hackathon Club (Awty Hackclub). We
@@ -20,8 +20,8 @@ function App() {
           <th className = "slideShow">
             <img src = {groupPhoto} className = "photo"></img>
           </th>
+          <th className="slideShow"></th>
         </tr>
-
       </table>
     </>
   );
