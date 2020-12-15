@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./utils/Navbar";gi
+import Navbar from "./utils/Navbar";
 import groupPhoto from "./img/groupPhoto.png";
 
 function App() {
