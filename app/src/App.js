@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./utils/Navbar";
+import groupPhoto from "./img/groupPhoto.png";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             careers.
           </th>
           <th className = "slideShow">
-
+            <img src = {groupPhoto} className = "photo"></img>
           </th>
         </tr>
 
