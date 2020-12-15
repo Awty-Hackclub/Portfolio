@@ -48,3 +48,23 @@
   font-size: 20px;
   font-family: Sarina;
 }
+
+.content {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+.paragraph {
+  color: #c3073f;
+  width: 50%;
+  text-align: left;
+  padding-right: 5%;
+}
+
+.slideShow {
+  height: 250px;
+  border: solid 3px #c3073f;
+  border-radius: 3%;
+  padding-left: 5%;
+}
