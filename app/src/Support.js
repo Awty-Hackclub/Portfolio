@@ -2,12 +2,12 @@ import { Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./utils/Navbar";
 
-export default Support() {
+export default function Support() {
     return (
         <>
             <Navbar />
             <div className="svg-grid">
-            
+
             </div>
         </>
     );
