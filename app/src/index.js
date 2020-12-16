@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import Support from "./Support";
-import projectPage from "./pages/projectPage";
 import reportWebVitals from "./reportWebVitals";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 
