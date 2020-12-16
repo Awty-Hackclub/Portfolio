@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import projectPage from './pages/projectPage'
 import reportWebVitals from './reportWebVitals';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 
@@ -11,6 +12,10 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/">
           <App />
+        </Route>
+
+        <Route exact path="/projects">
+          <projectPage />
         </Route>
       </Switch>
     </BrowserRouter>
