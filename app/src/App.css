@@ -67,13 +67,15 @@ a {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 3%;
-  display: grid;
+  display: inline-grid;
   place-items: center;
+  grid-template-columns: auto auto auto;
 }
 
 .paragraph {
   color: #c3073f;
   text-align: left;
+  word-wrap: initial;
   line-height: 2rem;
 }
 
