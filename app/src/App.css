@@ -63,27 +63,31 @@ a {
 }
 
 .content {
-  margin-top: 2%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 3%;
-  display: inline-grid;
+  margin: auto;
   place-items: center;
   grid-template-columns: auto auto auto;
+  width: 750px;
+}
+
+.paragraph-wrap {
+  width: 350px;
+  float: left;
 }
 
 .paragraph {
   color: #c3073f;
   text-align: left;
-  word-wrap: initial;
   line-height: 2rem;
+  width: 100%;
 }
 
 .photo {
-  width: 400px;
+  width: 350px;
   border: solid 3px #c3073f;
   border-radius: 3%;
   outline: none;
+  margin-top: 25px;
+  float: right;
 }
 
 .svg-grid {
