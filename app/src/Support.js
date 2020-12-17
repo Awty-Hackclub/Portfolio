@@ -1,10 +1,10 @@
 import { Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./utils/Navbar";
-import Twitter from "../public/icons/twitter.svg";
-import Github from "../public/icons/github.svg";
-import Instagram from "../public/icons/instagram.svg";
-import Youtube from "../public/icons/youtube.svg";
+import Twitter from "./icons/twitter.svg";
+import Github from "./icons/github.svg";
+import Instagram from "./icons/instagram.svg";
+import Youtube from "./icons/youtube.svg";
 
 export default function Support() {
     return (
