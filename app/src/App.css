@@ -87,8 +87,11 @@ a {
 .svg-grid {
   vertical-align: center;
   align-items: center;
+  margin: auto;
 }
 
-.svg-grid div {
-  background-color: #c3073f;
+.svg-grid img {
+  fill: #c3073f;
+  width: 100px;
+  margin: 1%;
 }
