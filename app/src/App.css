@@ -125,3 +125,7 @@ a {
   width: 100px;
   margin: 1%;
 }
+
+::selection {
+  background-color: #4E4E50;
+}
