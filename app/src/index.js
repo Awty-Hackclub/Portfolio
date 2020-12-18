@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import Support from "./Support";
+import Projects from "./Projects";
 import reportWebVitals from "./reportWebVitals";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 
@@ -17,6 +18,11 @@ ReactDOM.render(
         <Route exact path="/support">
           <Support />
         </Route>
+
+        <Route exact path="/projects">
+          <Projects />
+        </Route>
+
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
