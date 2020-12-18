@@ -62,32 +62,57 @@ a {
   text-decoration: none;
 }
 
-.content {
-  margin: auto;
-  place-items: center;
-  grid-template-columns: auto auto auto;
-  width: 750px;
+@media screen and (min-width: 800px){
+  .content {
+    margin: auto;
+    width: 750px;
+  }
+
+  .paragraph-wrap {
+    width: 350px;
+    float: left;
+  }
+
+  .paragraph {
+    color: #c3073f;
+    text-align: left;
+    line-height: 2rem;
+    width: 100%;
+  } 
+
+  .photo {
+    width: 350px;
+    border: solid 3px #c3073f;
+    border-radius: 3%;
+    outline: none;
+    margin-top: 25px;
+    float: right;
+  }
 }
 
-.paragraph-wrap {
-  width: 350px;
-  float: left;
-}
+@media screen and (max-width: 800px){
+  .content {
+    text-align: center;
+  }
 
-.paragraph {
-  color: #c3073f;
-  text-align: left;
-  line-height: 2rem;
-  width: 100%;
-}
+  .paragraph-wrap {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
-.photo {
-  width: 350px;
-  border: solid 3px #c3073f;
-  border-radius: 3%;
-  outline: none;
-  margin-top: 25px;
-  float: right;
+  .paragraph {
+    color: #c3073f;
+    line-height: 2rem;
+    width: 100%;
+  } 
+
+  .photo {
+    width: 80%;
+    border: solid 3px #c3073f;
+    border-radius: 3%;
+    outline: none;
+    margin-top: 25px;
+  }
 }
 
 .svg-grid {
