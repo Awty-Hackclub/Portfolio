@@ -7,7 +7,7 @@ export default function Support() {
         <>
             <Navbar />
             <div className="svg-grid">
-
+                
             </div>
         </>
     );
