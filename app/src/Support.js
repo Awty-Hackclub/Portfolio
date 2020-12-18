@@ -11,7 +11,10 @@ export default function Support() {
         <>
             <Navbar />
             <div className="svg-grid">
-                
+                <img src = {Twitter} className = "Twitter"></img>
+                <img src = {Github} className = "Github"></img>
+                <img src = {Instagram} className = "Instagram"></img>
+                <img src = {Youtube} className = "Youtube"></img>
             </div>
         </>
     );
