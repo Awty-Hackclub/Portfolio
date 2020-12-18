@@ -89,7 +89,7 @@ a {
   }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 799px){
   .content {
     text-align: center;
   }
