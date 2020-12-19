@@ -11,10 +11,10 @@ export default function Support() {
         <>
             <Navbar />
             <div className="svg-grid">
-                <div className = "circle"><Twitter class = "icon"/></div>
-                <div className = "circle"><Github class = "icon"/></div>
-                <div className = "circle"><Instagram class = "icon"/></div>
-                <div className = "circle"><Youtube class = "icon"/></div>
+                <div className = "circle"><a href = "https://twitter.com/ahackclub" target = "blank_"><Twitter class = "icon"/></a></div>
+                <div className = "circle"><a href = "https://github.com/Awty-Hackclub" target = "blank_"><Github class = "icon"/></a></div>
+                <div className = "circle"><a href = "https://www.instagram.com/awty_hackclub/" target = "blank_"><Instagram class = "icon"/></a></div>
+                <div className = "circle"><a href = "https://www.youtube.com/channel/UCTGj8v4qphvnnC22TX3jenA" target = "blank_"><Youtube class = "icon"/></a></div>
             </div>
         </>
     );
