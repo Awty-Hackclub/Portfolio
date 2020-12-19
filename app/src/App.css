@@ -83,11 +83,11 @@ a {
   }
 
   .photo {
-    width: 350px;
+    width:  600px;
     border: solid 3px #c3073f;
     border-radius: 3%;
     outline: none;
-    margin-top: 25px;
+    margin-top: 10px;
     float: right;
   }
 }
