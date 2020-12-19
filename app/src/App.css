@@ -63,10 +63,10 @@ a {
   text-decoration: none;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1380px) {
   .content {
     margin: auto;
-    width: 1000px;
+    width: 1300px;
   }
 
   .paragraph-wrap {
@@ -92,7 +92,7 @@ a {
   }
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 1379px) {
   .content {
     text-align: center;
   }
