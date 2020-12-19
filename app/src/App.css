@@ -111,19 +111,42 @@ a {
     border-radius: 3%;
     outline: none;
     margin-top: 25px;
+    margin-bottom: 10%;
   }
 }
 
 .svg-grid {
+  margin-top: 10%;
+  margin-bottom: 10%;
   vertical-align: center;
-  align-items: center;
-  margin: auto;
+  text-align: center;
+  place-items: center;
 }
 
-.svg-grid img {
-  fill: #c3073f;
-  width: 100px;
+.circle {
+  width: 110px;
+  height: 110px;
   margin: 1%;
+  border-radius: 50%;
+  background-color: #c3073f;
+  margin: auto;
+  padding: 15px;
+  display:inline-block;
+  margin: 10px;
+  transition: .2s;
+}
+
+.circle:hover {
+  background-color: #1A1A1D;
+}
+
+.circle .icon {
+  fill: #1A1A1D;
+  transition: .2s;
+}
+
+.circle:hover .icon {
+  fill:#c3073f
 }
 
 ::selection {
