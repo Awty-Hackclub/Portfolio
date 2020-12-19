@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sarina&display=swap");
 
 .html {
   width: 100%;
@@ -19,7 +19,7 @@ a {
 
 .navbar button {
   background: transparent;
-  border: 1px solid #C3073F;
+  border: 1px solid #c3073f;
   align-items: right;
   color: #c3073f;
   text-decoration: none;
@@ -36,8 +36,8 @@ a {
 }
 
 .navbar button:hover {
-  background: #C3073F;
-  color: #1A1A1D;
+  background: #c3073f;
+  color: #1a1a1d;
 }
 
 .navbar ul * {
@@ -52,17 +52,18 @@ a {
 
 .navbar hr {
   clear: both;
-  border-color: #C3073F;
+  border-color: #c3073f;
 }
 
-.AwtyHackclub, .AwtyHackclub:visited {
+.AwtyHackclub,
+.AwtyHackclub:visited {
   font-size: 20px;
   font-family: Sarina;
-  color: #C3073F;
+  color: #c3073f;
   text-decoration: none;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 800px) {
   .content {
     margin: auto;
     width: 750px;
@@ -78,7 +79,7 @@ a {
     text-align: left;
     line-height: 2rem;
     width: 100%;
-  } 
+  }
 
   .photo {
     width: 350px;
@@ -90,7 +91,7 @@ a {
   }
 }
 
-@media screen and (max-width: 799px){
+@media screen and (max-width: 799px) {
   .content {
     text-align: center;
   }
@@ -104,7 +105,7 @@ a {
     color: #c3073f;
     line-height: 2rem;
     width: 100%;
-  } 
+  }
 
   .photo {
     width: 80%;
@@ -132,24 +133,24 @@ a {
   background-color: #c3073f;
   margin: auto;
   padding: 15px;
-  display:inline-block;
+  display: inline-block;
   margin: 10px;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .circle:hover {
-  background-color: #1A1A1D;
+  background-color: #1a1a1d;
 }
 
 .circle .icon {
-  fill: #1A1A1D;
-  transition: .2s;
+  fill: #1a1a1d;
+  transition: 0.2s;
 }
 
 .circle:hover .icon {
-  fill:#c3073f
+  fill: #c3073f;
 }
 
 ::selection {
-  background-color: #4E4E50;
+  background-color: #4e4e50;
 }
