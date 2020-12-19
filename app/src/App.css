@@ -66,19 +66,20 @@ a {
 @media screen and (min-width: 800px) {
   .content {
     margin: auto;
-    width: 750px;
+    width: 1000px;
   }
 
   .paragraph-wrap {
-    width: 350px;
+    width: 600px;
     float: left;
   }
 
   .paragraph {
     color: #c3073f;
     text-align: left;
-    line-height: 2rem;
+    line-height: 3rem;
     width: 100%;
+    font-size: 2rem;
   }
 
   .photo {
