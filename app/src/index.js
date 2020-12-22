@@ -22,7 +22,6 @@ ReactDOM.render(
         <Route exact path="/projects">
           <Projects />
         </Route>
-
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
