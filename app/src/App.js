@@ -1,6 +1,13 @@
 import "./App.css";
 import Navbar from "./utils/Navbar";
-import groupPhoto from "./img/groupPhoto.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Jose } from './img/members/jose.JPG';
+import { Maxime } from './img/members/maxime.jpg';
+import { Philippe } from './img/members/philippe.png';
+import { Romeo } from './img/members/romeo.jpg';
+import { Sergei } from './img/members/sergei.png';
+import { Tarek } from './img/members/tarek.png';
+import { Terence } from './img/members/terence.png';
 
 function App() {
   return (
@@ -18,7 +25,10 @@ function App() {
             future careers.
           </p>
         </div>
-        <img src={groupPhoto} className="photo"></img>
+        {/* <img src={groupPhoto} className="photo"></img> */}
+        <Swiper spaceBetween={50} slidesPerView={3}>
+          <SwiperSlide><img></img></SwiperSlide>
+        </Swiper>
       </div>
     </>
   );
