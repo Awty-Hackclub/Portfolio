@@ -1,13 +1,13 @@
 import "./App.css";
 import Navbar from "./utils/Navbar";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Jose } from "./img/members/jose.JPG";
-import { Maxime } from "./img/members/maxime.jpg";
-import { Philippe } from "./img/members/philippe.png";
-import { Romeo } from "./img/members/romeo.jpg";
-import { Sergei } from "./img/members/sergei.png";
-import { Tarek } from "./img/members/tarek.png";
-import { Terence } from "./img/members/terence.png";
+import Jose from "./img/members/jose.jpg";
+import Maxime from "./img/members/maxime.jpg";
+import Philippe from "./img/members/philippe.png";
+import Romeo from "./img/members/romeo.jpg";
+import Sergei from "./img/members/sergei.png";
+import Tarek from "./img/members/tarek.jpg";
+import Terence from "./img/members/terence.jpg";
 
 function App() {
   return (
