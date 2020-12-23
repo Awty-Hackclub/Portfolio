@@ -1,13 +1,13 @@
 import "./App.css";
 import Navbar from "./utils/Navbar";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Jose } from './img/members/jose.JPG';
-import { Maxime } from './img/members/maxime.jpg';
-import { Philippe } from './img/members/philippe.png';
-import { Romeo } from './img/members/romeo.jpg';
-import { Sergei } from './img/members/sergei.png';
-import { Tarek } from './img/members/tarek.png';
-import { Terence } from './img/members/terence.png';
+import { Jose } from "./img/members/jose.JPG";
+import { Maxime } from "./img/members/maxime.jpg";
+import { Philippe } from "./img/members/philippe.png";
+import { Romeo } from "./img/members/romeo.jpg";
+import { Sergei } from "./img/members/sergei.png";
+import { Tarek } from "./img/members/tarek.png";
+import { Terence } from "./img/members/terence.png";
 
 function App() {
   return (
@@ -27,7 +27,27 @@ function App() {
         </div>
         {/* <img src={groupPhoto} className="photo"></img> */}
         <Swiper spaceBetween={50} slidesPerView={3}>
-          <SwiperSlide><img></img></SwiperSlide>
+          <SwiperSlide>
+            <img src={Tarek} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Sergei} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Terence} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Maxime} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Jose} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Romeo} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Philippe} />
+          </SwiperSlide>
         </Swiper>
       </div>
     </>
