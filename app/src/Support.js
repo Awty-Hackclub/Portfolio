@@ -1,4 +1,3 @@
-import { Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./utils/Navbar";
 import Twitter from "./icons/twitter.jsx";
