@@ -17,23 +17,45 @@ a {
   zoom: 200%;
 }
 
+@media screen and (min-width: 600px){
 .navbar button {
-  background: transparent;
-  border: 1px solid #c3073f;
-  align-items: right;
-  color: #c3073f;
-  text-decoration: none;
-  box-sizing: border-box;
-  border-radius: 5px;
-  height: 25px;
-  width: 90px;
-  float: right;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  transition: 0.2s;
-  outline: 0;
+    background: transparent;
+    border: 1px solid #c3073f;
+    align-items: right;
+    color: #c3073f;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 25px;
+    width: 90px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    outline: 0;
+  }
 }
+
+@media screen and (max-width: 599px){
+  .navbar {
+    text-align: center;
+  }
+  
+  .navbar button {
+      background: transparent;
+      border: 1px solid #c3073f;
+      color: #c3073f;
+      text-decoration: none;
+      box-sizing: border-box;
+      border-radius: 5px;
+      height: 25px;
+      width: 90px;
+      margin: 10px;
+      transition: 0.2s;
+      outline: 0;
+    }
+  }
 
 .navbar button:hover {
   background: #c3073f;
